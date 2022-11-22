@@ -67,6 +67,7 @@ class TextAce:
         for principal in SPECIAL_PRINCIPALS:
             if self._principal == principal:
                 return True
+        return False
 
     def getType(self) -> str:
         return self._type
