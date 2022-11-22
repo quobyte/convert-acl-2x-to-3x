@@ -19,7 +19,7 @@ Converts ACLs of directories if ALL of the following criterias match:
 
 Directories will be ignored if:
   - there is no ACE that sets inheritance
-  - there is at least on ACE that sets inheritance for each special principal
+  - there is at least one ACE that sets inheritance for each special principal
 
 The result of the conversion will be as follows:
   - all ACEs are copied
